@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Firebase crud operations</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+</head>
+<body>
+   
+    <br>
+<center>
+    <h1>Student Details</h1></align>
+        <div class="row">
+            <label>Enter Name:</label>
+            <input type="text" id="sname">
+        </div><br>
+        
+        <div class="row">
+            <label>RollNo:</label>
+            <input type="text" id="rollno">
+        </div>
+        <br>
+       
+        <div>
+        <button id="insert" onclick="insertion()">Insert</button>
+        </div>
+        <br>
+        <div>
+            <button id="delete" onclick="deletion()">Delete</button>
+    
+            </div>
+            
+            <br>
+        <div>
+            <button id="update" onclick="update()">Update</button>
+    
+            </div>
+
+            <br>
+           <button id="display" onclick="display()">Display</button>
+           <br>
+           <br>
+           <div id="div"></div>
+        <script src="crud.js"></script>
+        </center>
+</body>
+</html>
